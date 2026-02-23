@@ -5,3 +5,4 @@ Here i'm posting may daily learning
 #Day4 :- I learned about Functions like normal and Arrow function
 #Day5 :- I learned about conditions like if-else
 #Day6 :- I learned about loops like for loop
+#Day7 :- I learned about Array 
