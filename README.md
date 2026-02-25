@@ -7,3 +7,4 @@ Here i'm posting may daily learning
 #Day6 :- I learned about loops like for loop
 #Day7 :- I learned about Array 
 #Day8 :- I learned about Array Methods like push, pop, unshift, shift, splice
+#Day9 :- I learned about object
