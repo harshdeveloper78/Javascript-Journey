@@ -10,3 +10,4 @@ Here i'm posting may daily learning
 #Day9 :- I learned about object
 #Day10 :- I learned about DOM Element selector 
 #Day11 :- I learned about DOM Changing Content
+#Day12 :- I learned about DOM Modify Content
