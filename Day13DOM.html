@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <button id="button">Click</button>
+    <h1 id="add"></h1>
+    <script>
+        //it is used to handle the event
+        const button = document.getElementById('button');
+        const add = document.getElementById('add');
+
+        function click (){
+            add.innerText = 'you clicked the button'
+        }
+
+        button.addEventListener('click', click);
+
+    </script>
+</body>
+</html>
