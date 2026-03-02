@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO List</title>
+</head>
+<body>
+    
+    <input type="text" id="text" placeholder="enter the text">
+    <button id="button">Add</button>
+    <ul id="list"></ul>
+    <script>
+        //added all three in the js 
+        const text = document.getElementById('text');
+        const button = document.getElementById('button');
+        const list = document.getElementById('list');
+
+        //the li created and the input was taken by user
+        function addtext (){
+            const li = document.createElement("li"); 
+            li.innerText = text.value;
+
+            // it is the delete button for deleting the task
+            const delBtn = document.createElement("Button");
+            delBtn.innerText = "Delete";
+
+            //function for the delete button event 
+            delBtn.addEventListener("click", function (){
+                deleteitem(li);
+            });
+
+            // it adds the li in ul 
+            li.appendChild(delBtn);
+            list.appendChild(li);
+
+        }
+        //function for deletion
+        function deleteitem (li){
+            list.removeChild(li);
+        }
+
+        button.addEventListener('click', addtext);
+
+    </script>
+</body>
+</html>
