@@ -14,3 +14,4 @@ Here i'm posting may daily learning
 #Day13 :- I learned about addeventlistener
 #Day14 :- I learned about adding task in todo and deleting task from todo
 #Day15 :- I learned about keydown
+#Day16 :- I learned about keyup
