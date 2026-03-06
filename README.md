@@ -16,3 +16,4 @@ Here i'm posting may daily learning
 #Day15 :- I learned about keydown
 #Day16 :- I learned about keyup
 #Day17 :- I learned about form validation
+#Day18 :- I learned about counter
