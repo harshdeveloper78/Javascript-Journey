@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit</title>
+</head>
+<body>
+    <form id="form">
+        <input type="text" id="name" placeholder="enter name">
+        <button type="submit">Submit</button>
+        <p id="message"></p>
+    </form>
+
+    <script>
+        const form = document.querySelector('#form');
+        const message = document.querySelector("#message")
+
+        form.addEventListener("submit", function(e){
+            e.preventDefault();
+            message.textContent = "form submitted";
+        });
+    </script>
+</body>
+</html>
