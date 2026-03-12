@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asynchronous js using settimeout</title>
+</head>
+<body>
+    <h2>this is loaded</h2>
+    <button id="btn">Load Data</button>
+    <p id="message"></p>
+
+    <script>
+        const button = document.getElementById("btn");
+        const message = document.getElementById("message");
+
+        button.addEventListener("click", function () {
+            message.textContent = "loading..";
+
+            setTimeout(function(){
+                message.textContent = "Data loaded Successfully";
+            }, 3000);
+        });
+    </script>
+</body>
+</html>
