@@ -24,3 +24,4 @@ Here i'm posting may daily learning
 #Day 23 :- I learned about input
 #Day 24 :- I learned about async settimeout
 #Day 25 :- I learned about promise
+#Day 26 :- I learned about callback
