@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async/Await</title>
+</head>
+<body>
+    <button id="btn">Start</button>
+    <p id="message"></p>
+
+    <script>
+        const btn = document.getElementById("btn");
+        const message = document.getElementById("message");
+        function getData(){
+            return new Promise((resolve) => {
+                setTimeout(() => {
+                    resolve("Task Completed");
+                }, 2000);
+            });
+        }
+
+        async function startTask() {
+            message.textContent = "Loading...";
+            const result = await getData();
+            message.textContent = result;    
+        }
+        btn.addEventListener("click", startTask);
+    </script>
+</body>
+</html>
