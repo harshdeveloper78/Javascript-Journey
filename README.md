@@ -27,3 +27,4 @@ Here i'm posting may daily learning
 #Day 26 :- I learned about callback
 #Day 27 :- I learned about async/await
 #Day 28 :- I learned about fetch
+#Day 29 :- I learned about localStorage
