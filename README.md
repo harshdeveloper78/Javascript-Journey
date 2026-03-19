@@ -28,3 +28,4 @@ Here i'm posting may daily learning
 #Day 27 :- I learned about async/await
 #Day 28 :- I learned about fetch
 #Day 29 :- I learned about localStorage
+#Day 30 :- Added Localstorage in my todo 
