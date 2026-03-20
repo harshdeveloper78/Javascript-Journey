@@ -29,3 +29,4 @@ Here i'm posting may daily learning
 #Day 28 :- I learned about fetch
 #Day 29 :- I learned about localStorage
 #Day 30 :- Added Localstorage in my todo 
+#Day 31 :- Doubled the Array by using map
