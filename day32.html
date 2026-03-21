@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>filter</title>
+</head>
+<body>
+    <button id="btn">Show Number</button>
+    <ul id="list"></ul>
+
+    <script>
+        const btn = document.getElementById("btn");
+        const list = document.getElementById("list");
+
+        btn.addEventListener("click", () => {
+            const numbers = [1, 2, 3, 4 ,5];
+        
+            const filtered = numbers.filter(number => number > 3);
+            list.innerHTML = "";
+
+            filtered.forEach(num => {
+                const li = document.createElement("li");
+                li.textContent = num;
+                list.appendChild(li);
+            });
+        });
+    </script>
+</body>
+</html>
