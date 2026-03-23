@@ -31,3 +31,4 @@ Here i'm posting may daily learning
 #Day 30 :- Added Localstorage in my todo 
 #Day 31 :- Doubled the Array by using map
 #Day 32 :- filter the greatest number
+#Day 33 :- I learn about Find
