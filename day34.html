@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forEcah</title>
+</head>
+<body>
+    <button id="btn">Show numbers</button>
+    <ul id="list"></ul>
+
+    <script>
+        const btn = document.getElementById("btn");
+        const list = document.getElementById("list");
+
+        btn.addEventListener("click", () =>{
+            const nums = [1 , 2 , 3];
+
+            list.innerHTML = "";
+            nums.forEach(n => {
+                const li = document.createElement("li");
+                li.textContent = n;
+                list.appendChild(li);
+            });
+        });
+    </script>
+</body>
+</html>
