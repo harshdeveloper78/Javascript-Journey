@@ -33,3 +33,4 @@ Here i'm posting may daily learning
 #Day 32 :- filter the greatest number
 #Day 33 :- I learn about Find
 #Day 34 :- Created loop using forEach
+#Day 35 :- I learned about reduce
