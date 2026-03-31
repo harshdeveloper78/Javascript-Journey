@@ -28,6 +28,13 @@
                 const li = document.createElement("li");
                 li.innerText = task;
 
+                const checkbox = document.createElement("input");
+                checkbox.type = "checkbox";
+
+                checkbox.onchange = function () {
+                    li.classList.toggle("done");
+                };
+
                 const delBtn = document.createElement("button");
                 delBtn.innerText = "Delete";
 
@@ -35,6 +42,7 @@
                     deleteitem(li, task);
                 });
 
+                li.prepend(checkbox);
                 li.appendChild(delBtn);
                 list.appendChild(li);
             });
@@ -49,6 +57,10 @@
             const checkbox = document.createElement("input");
                 checkbox.type = "checkbox";
 
+                checkbox.onchange = function () {
+                    li.classList.toggle("done");
+                };
+
             // it is the delete button for deleting the task
             const delBtn = document.createElement("Button");
             delBtn.innerText = "Delete";
@@ -59,9 +71,6 @@
 
                 
 
-                checkbox.onchange = function () {
-                     li.classList.toggle("done");
-                };
                 
         });
             // it adds the li in ul 
