@@ -35,3 +35,4 @@ Here i'm posting may daily learning
 #Day 34 :- Created loop using forEach
 #Day 35 :- I learned about reduce
 #Day 36 :- added checked button in todo
+#Day 37 :- added strikethrough when click on checkbox
